@@ -1,0 +1,37 @@
+<?php
+
+$mod_strings['LBL_ASSIGNED_TO_ID'] = 'Id Usuário Atribuído';
+$mod_strings['LBL_ASSIGNED_TO_NAME'] = 'Atribuído a';
+$mod_strings['LBL_ID'] = 'ID';
+$mod_strings['LBL_DATE_ENTERED'] = 'Data de Criação';
+$mod_strings['LBL_DATE_MODIFIED'] = 'Data de Modificação';
+$mod_strings['LBL_MODIFIED'] = 'Modificado Por';
+$mod_strings['LBL_MODIFIED_ID'] = 'Modificado Por Id';
+$mod_strings['LBL_MODIFIED_NAME'] = 'Modificado Por Nome';
+$mod_strings['LBL_CREATED'] = 'Criado por';
+$mod_strings['LBL_CREATED_ID'] = 'Criado Por Id';
+$mod_strings['LBL_DESCRIPTION'] = 'Descrição';
+$mod_strings['LBL_DELETED'] = 'Excluído';
+$mod_strings['LBL_NAME'] = 'Endereço:';
+$mod_strings['LBL_CREATED_USER'] = 'Criado por Usuário';
+$mod_strings['LBL_MODIFIED_USER'] = 'Modificado por Usuário';
+$mod_strings['LBL_LIST_NAME'] = 'Endereço:';
+$mod_strings['LBL_LIST_FORM_TITLE'] = 'Lista de Cache de Endereços';
+$mod_strings['LBL_MODULE_NAME'] = 'Cache de endereço';
+$mod_strings['LBL_MODULE_TITLE'] = 'Cache de endereço';
+$mod_strings['LBL_HOMEPAGE_TITLE'] = 'Meus Caches de Endereços';
+$mod_strings['LNK_NEW_RECORD'] = 'Criar Cache de Endereços';
+$mod_strings['LNK_LIST'] = 'Exibir Cache de Endereços';
+$mod_strings['LNK_IMPORT_JJWG_ADRESS_CACHE'] = 'Importar Cache de Endereços';
+$mod_strings['LBL_SEARCH_FORM_TITLE'] = 'Pesquisar Cache de Endereços';
+$mod_strings['LBL_HISTORY_SUBPANEL_TITLE'] = 'Ver Histórico';
+$mod_strings['LBL_ACTIVITIES_SUBPANEL_TITLE'] = 'Atividades';
+$mod_strings['LBL_JJWG_ADRESS_CACHE_SUBPANEL_TITLE'] = 'Cache de endereço';
+$mod_strings['LBL_NEW_FORM_TITLE'] = 'Novo Cache de Endereços';
+$mod_strings['LBL_LAT'] = 'Latitude';
+$mod_strings['LBL_LNG'] = 'Longitude';
+$mod_strings['LBL_GEOCODE_STATUS'] = 'Status de geocódigo';
+$mod_strings['LBL_CURRENT_USER_FILTER'] = 'Meus Itens';
+$mod_strings['LBL_ASSIGNED_TO'] = 'Usuário';
+$mod_strings['LNK_IMPORT_JJWG_ADDRESS_CACHE'] = 'Importar Cache de Endereços';
+$mod_strings['LBL_JJWG_ADDRESS_CACHE_SUBPANEL_TITLE'] = 'Cache de endereço';
