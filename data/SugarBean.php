@@ -341,6 +341,20 @@ class SugarBean
     }
 
     /**
+     * @deprecated deprecated since version 7.6, PHP4 Style Constructors are deprecated and will be remove in 7.8, please update your code, use __construct instead
+     */
+    public function SugarBean(){
+        $deprecatedMessage = 'PHP4 Style Constructors are deprecated and will be remove in 7.8, please update your code';
+        if(isset($GLOBALS['log'])) {
+            $GLOBALS['log']->deprecated($deprecatedMessage);
+        }
+        else {
+            trigger_error($deprecatedMessage, E_USER_DEPRECATED);
+        }
+        self::__construct();
+    }
+
+    /**
      * Loads the definition of custom fields defined for the module.
      * Local file system cache is created as needed.
      *
@@ -2313,26 +2327,26 @@ class SugarBean
                     continue;
                 } // continue to honor the exclude array and exclude any relationships that will be handled by the relationship_fields mechanism
 
-                $linkField = $def ['link'];
+                $linkField = $def['link'];
                 if (isset($this->field_defs[$linkField])) {
                     if ($this->load_relationship($linkField)) {
                         $idName = $def['id_name'];
 
                         if (!empty($this->rel_fields_before_value[$idName]) && empty($this->$idName)) {
                             //if before value is not empty then attempt to delete relationship
-                            $GLOBALS['log']->debug("save_relationship_changes(): From field_defs - attempting to remove the relationship record: {$def [ 'link' ]} = {$this->rel_fields_before_value[$def [ 'id_name' ]]}");
-                            $success = $this->$def ['link']->delete($this->id, $this->rel_fields_before_value[$def ['id_name']]);
+                            $GLOBALS['log']->debug("save_relationship_changes(): From field_defs - attempting to remove the relationship record: {$linkField} = {$this->rel_fields_before_value[$idName]}");
+                            $success = $this->$linkField->delete($this->id, $this->rel_fields_before_value[$idName]);
                             // just need to make sure it's true and not an array as it's possible to return an array
                             if ($success == true) {
-                                $modified_relationships['remove']['success'][] = $def['link'];
+                                $modified_relationships['remove']['success'][] = $linkField;
                             } else {
-                                $modified_relationships['remove']['failure'][] = $def['link'];
+                                $modified_relationships['remove']['failure'][] = $linkField;
                             }
                             $GLOBALS['log']->debug("save_relationship_changes(): From field_defs - attempting to remove the relationship record returned " . var_export($success, true));
                         }
 
                         if (!empty($this->$idName) && is_string($this->$idName)) {
-                            $GLOBALS['log']->debug("save_relationship_changes(): From field_defs - attempting to add a relationship record - {$def [ 'link' ]} = {$this->$def [ 'id_name' ]}");
+                            $GLOBALS['log']->debug("save_relationship_changes(): From field_defs - attempting to add a relationship record - {$linkField} = {$this->$idName}");
 
                             $success = $this->$linkField->add($this->$idName);
 
