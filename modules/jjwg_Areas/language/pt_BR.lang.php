@@ -1,0 +1,44 @@
+<?php
+
+$mod_strings['LBL_ASSIGNED_TO_ID'] = 'Id Usuário Atribuído';
+$mod_strings['LBL_ASSIGNED_TO_NAME'] = 'Usuário';
+$mod_strings['LBL_ID'] = 'ID';
+$mod_strings['LBL_DATE_ENTERED'] = 'Data de Criação';
+$mod_strings['LBL_DATE_MODIFIED'] = 'Data de Modificação';
+$mod_strings['LBL_MODIFIED'] = 'Modificado Por';
+$mod_strings['LBL_MODIFIED_ID'] = 'Modificado Por Id';
+$mod_strings['LBL_MODIFIED_NAME'] = 'Modificado Por Nome';
+$mod_strings['LBL_CREATED'] = 'Criado por';
+$mod_strings['LBL_CREATED_ID'] = 'Criado Por Id';
+$mod_strings['LBL_DESCRIPTION'] = 'Descrição';
+$mod_strings['LBL_DELETED'] = 'Excluído';
+$mod_strings['LBL_NAME'] = 'Nome';
+$mod_strings['LBL_CREATED_USER'] = 'Criado por Usuário';
+$mod_strings['LBL_MODIFIED_USER'] = 'Modificado por Usuário';
+$mod_strings['LBL_LIST_NAME'] = 'Nome';
+$mod_strings['LBL_LIST_FORM_TITLE'] = 'Lista Áreas';
+$mod_strings['LBL_MODULE_NAME'] = 'Áreas';
+$mod_strings['LBL_MODULE_TITLE'] = 'Áreas';
+$mod_strings['LBL_HOMEPAGE_TITLE'] = 'minhas áreas';
+$mod_strings['LNK_NEW_RECORD'] = 'Criar áreas';
+$mod_strings['LNK_LIST'] = 'Ver Áreas';
+$mod_strings['LNK_IMPORT_JJWG_AREAS'] = 'Importar Áreas';
+$mod_strings['LBL_SEARCH_FORM_TITLE'] = 'Pesquisar Areas';
+$mod_strings['LBL_HISTORY_SUBPANEL_TITLE'] = 'Ver Histórico';
+$mod_strings['LBL_ACTIVITIES_SUBPANEL_TITLE'] = 'Atividades';
+$mod_strings['LBL_JJWG_AREAS_SUBPANEL_TITLE'] = 'Áreas';
+$mod_strings['LBL_NEW_FORM_TITLE'] = 'Novas Áreas';
+$mod_strings['LBL_CITY'] = 'Cidade:';
+$mod_strings['LBL_STATE'] = 'Estado';
+$mod_strings['LBL_COUNTRY'] = 'País:';
+$mod_strings['LBL_COORDINATES'] = 'Coordenadas';
+$mod_strings['LBL_LIST_ASSIGNED_USER'] = 'Usuário';
+$mod_strings['LBL_AREA_MAP'] = 'Mapa da Área';
+
+$mod_strings['LBL_AREA_EDIT_TITLE'] = 'Instruções Criação de Área:';
+$mod_strings['LBL_AREA_EDIT_DESC_1'] = 'Clique esquerdo no mapa, em um movimento no sentido horário, para criar pontos de marcador para a área';
+$mod_strings['LBL_AREA_EDIT_DESC_2'] = 'Clique no primeiro ponto do marcador para fechar a área do polígono';
+$mod_strings['LBL_AREA_EDIT_RESET'] = 'Reiniciar';
+$mod_strings['LBL_AREA_EDIT_USE_AREA_COORDINATES'] = 'Usar Coordenadas de Área';
+$mod_strings['LBL_AREA_EDIT_COORDINATE_RESULTS'] = 'Resultados de Coordenadas (lng,lat,elv):';
+$mod_strings['LBL_JJWG_MAPS_JJWG_AREAS_FROM_JJWG_MAPS_TITLE'] = 'Mapas';
